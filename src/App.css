@@ -124,6 +124,7 @@ body {
 
 
 @media (max-width: 576px) {
+
   .card-container {
     width: 90%;
     margin: auto;
@@ -136,5 +137,8 @@ body {
   .card .title {
     font-size: 18px;
     font-weight: 600;
+  }
+  .card .card-image h3 {
+     display: none;
   }
 }
